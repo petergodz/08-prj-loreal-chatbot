@@ -11,6 +11,8 @@ body {
   color: #333;
   display: flex;
   justify-content: center;
+  background: rgb(232, 157, 27); /* CMYK 0, 35, 88, 9 */
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .page-wrapper {
@@ -28,6 +30,7 @@ body {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 10px;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 /* chat window */
@@ -44,6 +47,7 @@ body {
   overflow-y: auto;
   background: #fafafa;
   white-space: pre-line;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 /* messages */
@@ -72,6 +76,7 @@ body {
   padding: 12px;
   border: 1px solid #ccc;
   font-size: 18px;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .chat-form input:focus {
@@ -136,6 +141,7 @@ body {
   margin: 0 8px;
   color: #000;
   text-decoration: none;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .site-footer a:hover {
