@@ -12,6 +12,19 @@ body {
   display: flex;
   justify-content: center;
   background: rgb(232, 157, 27); /* CMYK 0, 35, 88, 9 */
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.18); /* white tint, adjust opacity as needed */
+  pointer-events: none;
+  z-index: 0;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
